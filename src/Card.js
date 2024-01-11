@@ -7,7 +7,7 @@ const Card = (props) => {
     let review = props.review;
   return (
     <div className='flex flex-col md:relative '> 
-        <div className='absolute top-[-7rem] z-[10] mx-auto '>
+        <div className="relative mx-auto md:absolute md:top-[-7rem] z-[10] ">
             <img 
             className='aspect-square rounded-full w-[140px] h-[140px] z-[25]'
             src={review.image}/>
